@@ -13,6 +13,8 @@ int main()
     cout << "Please choose an option: ";
     cin >> option;
 
+    system("clear");
+
     switch (option) {
         case 1: cout << "Balance is: " << balance << " $" << endl; break;
         case 2: cout << "Deposit amount: ";

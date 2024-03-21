@@ -30,6 +30,7 @@ int main()
             else
                 cout << "Your account does not have enough money to withdraw that amount." << endl;
             break;
+        default: cout << "Not a valid option!" << endl;
     }
     } while (option != 4);
 return 0;
